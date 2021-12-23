@@ -5,17 +5,17 @@ Generate up-sampling events on the correct motion trajectory, which includes est
 
 
 ## Code
-[main.py](https://github.com/XIJIE-XIANG/Event-Temporal-Up-sampling/blob/main/main.py): up-sampling events
+[main.py](https://anonymous.4open.science/r/Event-Temporal-Up-sampling-70AB/main.py): up-sampling events
 
-[Contrast_Maximization.py](https://github.com/XIJIE-XIANG/Event-Temporal-Up-sampling/blob/main/Contrast_Maximization.py): estimate event motion trajectory
+[Contrast_Maximization.py](https://anonymous.4open.science/r/Event-Temporal-Up-sampling-70AB/Contrast_Maximization.py): estimate event motion trajectory
 
-[Temporal_Point_Processes.py](https://github.com/XIJIE-XIANG/Event-Temporal-Up-sampling/blob/main/Temporal_Point_Processes.py): up-sampling events by Hawkes Process and Self-correcting Process
+[Temporal_Point_Processes.py](https://anonymous.4open.science/r/Event-Temporal-Up-sampling-70AB/Temporal_Point_Processes.py): up-sampling events by Hawkes Process and Self-correcting Process
 
-[event_process.py](https://github.com/XIJIE-XIANG/Event-Temporal-Up-sampling/blob/main/event_process.py): including warp events, save up-sampling events, show result, etc.
+[event_process.py](https://anonymous.4open.science/r/Event-Temporal-Up-sampling-70AB/event_process.py): including warp events, save up-sampling events, show result, etc.
 
 
 ## Usage
-Change event_path in [main.py](https://github.com/XIJIE-XIANG/Event-Temporal-Up-sampling/blob/main/main.py) to your own path.
+Change event_path in [main.py](https://anonymous.4open.science/r/Event-Temporal-Up-sampling-70AB/main.py) to your own path.
 
 
 ## Dependencies
