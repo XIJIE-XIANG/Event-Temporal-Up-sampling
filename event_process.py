@@ -57,10 +57,12 @@ def limit_num(ori_events, gen_events, limit_up_rate):
 def show_ref(params, x, y, p, t, t_ref, rangeX, rangeY):
     ref = np.zeros((rangeX, rangeY))
     for i in range(x.size):
-        # 无极性
+        
+        # without polarity
         # cur_x = round(x[i] + -1.72707543e-07 * (t_ref - t[i]))
         # cur_y = round(y[i] + 1.15075271e-04 * (t_ref - t[i]))
-        # 有极性
+        
+        # with polarity
         cur_x = round(x[i] + params[0] * (t_ref - t[i]))
         cur_y = round(y[i] + params[1] * (t_ref - t[i]))
         # cur_x = x[i]
