@@ -60,7 +60,7 @@ if __name__ == '__main__':
         # up-sampling main events by Self-correcting Process
 
         basic_w = 0.0001
-        basic_w = basic_w * (nx.size / (np.sum(np.abs(ref)) - nx.size) + 2) # n/m + 2 ～ lambda
+        basic_w = basic_w * (nx.size / (np.sum(np.abs(ref)) - nx.size) + 2) # n/m + 2 ~ lambda
         w = basic_w / np.log(min_i) # min_t ~ 1/lambda
 
         for i in range(mx.size):
