@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # event trajectory along the flow direction
 def event_trace(flow, x, y, p, t, t_ref, rangeX, rangeY):
-    trace = [[[] for x in range(rangeY)] for y in range(rangeX)]
+    trace = [[[] for ix in range(rangeY)] for iy in range(rangeX)]
     for i in range(x.size):
         cur_x = round(x[i] + flow[0] * (t_ref - t[i]))
         cur_y = round(y[i] + flow[1] * (t_ref - t[i]))
