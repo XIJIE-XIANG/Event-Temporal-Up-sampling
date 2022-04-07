@@ -69,7 +69,7 @@ def HP(events, u, w, mx, my, flow, t_ref, min_i, a=np.array([[1.0, 0.0], [0.0, 1
             continue
 
         # thinning process
-        thin = cur_intensity - np.sum(intensity)  # diff若不为0，则有一定的概率不保留新生成的点
+        thin = cur_intensity - np.sum(intensity) # If diff is not 0, there is a certain probability that the newly generated points will not be retained
         try:
             n0 = np.random.choice(np.arange(len(u) + 1), 1,
                                   p=(np.append(intensity, thin) / cur_intensity))
