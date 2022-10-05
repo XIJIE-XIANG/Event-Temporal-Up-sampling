@@ -57,7 +57,7 @@ if __name__ == '__main__':
             cur_gen_events.append(up_noise)
         cur_gen_events = np.array(cur_gen_events).squeeze()
 
-        # up-sampling main events by Self-correcting Process
+        # up-sampling main events by Hawkes Process
 
         basic_w = 0.0001
         basic_w = basic_w * (nx.size / (np.sum(np.abs(ref)) - nx.size) + 2) # n/m + 2 ~ lambda
