@@ -1,11 +1,10 @@
-# Event-Temporal-Up-sampling
+# Events Temporal Up-sampling
 
-## Event-Temporal-Up-sampling
 The number of valid events directly affects the performance of event-based tasks, such as reconstruction, detection, and recognition. However, when in low-brightness or slow-moving scenes, events are often sparse and accompanied by noise, which poses challenges for event-based tasks. To solve these challenges, we propose an event temporal up-sampling algorithm to generate more effective and reliable events. Experimental results show that up-sampling events can provide more effective information and improve the performance of downstream tasks, such as improving the quality of reconstructed images and increasing the accuracy of object detection.
 
-![motivation](https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9859562/9858923/9858934/9858934-fig-1-source-small.gif)
+![motivation](https://d3i71xaburhd42.cloudfront.net/764c6ddacae904bf6a5cd21847fbc5e695c2584f/1-Figure1-1.png)
 
-For more details, please read our paper ['Temporal Up-Sampling for Asynchronous Events'](https://ieeexplore.ieee.org/abstract/document/9858934/).
+For more details, please read our paper "[Temporal Up-Sampling for Asynchronous Events](https://ieeexplore.ieee.org/abstract/document/9858934/)".
 
 ## Introduction
 Generate up-sampling events on the correct motion trajectory, which includes estimating the motion trajectory of the events by contrast maximization algorithm and up-sampling the events by the temporal point processes (Hawkes Process for main events, Self-correcting Process for noise).
@@ -32,9 +31,15 @@ python=3.8
 ## Publication
 If you use this code in an academic context, please cite the following publication:
 
-X. Xiang, L. Zhu, J. Li, Y. Tian and T. Huang, "Temporal Up-Sampling for Asynchronous Events," 2022 IEEE International Conference on Multimedia and Expo (ICME), 2022, pp. 01-06, doi: 10.1109/ICME52920.2022.9858934.
+X. Xiang, L. Zhu, J. Li, Y. Tian and T. Huang, "Temporal Up-Sampling for Asynchronous Events," 2022 IEEE International Conference on Multimedia and Expo (ICME), 2022, pp. 01-06.
 
->@INPROCEEDINGS{Xiang22ICME,  author={Xiang, Xijie and Zhu, Lin and Li, Jianing and Tian, Yonghong and Huang, Tiejun},  booktitle={2022 IEEE International Conference on Multimedia and Expo (ICME)},   title={Temporal Up-Sampling for Asynchronous Events},   year={2022},  volume={},  number={},  pages={01-06},  doi={10.1109/ICME52920.2022.9858934}}
+
+>@INPROCEEDINGS{Xiang22ICME,  
+>  author={Xiang, Xijie and Zhu, Lin and Li, Jianing and Tian, Yonghong and Huang, Tiejun},  
+>  booktitle={2022 IEEE International Conference on Multimedia and Expo (ICME)},   
+>  title={Temporal Up-Sampling for Asynchronous Events},   
+>  year={2022},  
+>  pages={01-06}}
 
 
 
