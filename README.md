@@ -2,7 +2,7 @@
 
 The number of valid events directly affects the performance of event-based tasks, such as reconstruction, detection, and recognition. However, when in low-brightness or slow-moving scenes, events are often sparse and accompanied by noise, which poses challenges for event-based tasks. To solve these challenges, we propose an event temporal up-sampling algorithm to generate more effective and reliable events. Experimental results show that up-sampling events can provide more effective information and improve the performance of downstream tasks, such as improving the quality of reconstructed images and increasing the accuracy of object detection.
 
-![motivation](https://www.overleaf.com/project/61af1e170ee589e12d7863b3/file/61c2bb3e0f950b24896c595e)
+![motivation](https://github.com/XIJIE-XIANG/Event-Temporal-Up-sampling/blob/main/data/motivation.pdf)
 
 For more details, please read our paper "[Temporal Up-Sampling for Asynchronous Events](https://ieeexplore.ieee.org/abstract/document/9858934/)".
 
