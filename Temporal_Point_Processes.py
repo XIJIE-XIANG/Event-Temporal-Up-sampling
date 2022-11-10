@@ -116,5 +116,5 @@ def SP(events, t_min, t_max, u, b, th, mx, my, flow, rangeX, rangeY):
             if gen_event_x >= 0 and gen_event_x < rangeX and gen_event_y >= 0 and gen_event_y < rangeY:
                 gen_events.append([gen_event_x, gen_event_y, events[2], cur_t])
         else:
-            cur_t = np.random.randint(cur_t, t_max+1)
+            cur_t += np.random.randint(cur_t, t_max+1)
     return np.array(gen_events)
